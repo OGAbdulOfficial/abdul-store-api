@@ -72,7 +72,6 @@ def api():
                     'success': True,
                     'count': len(formatted_results),
                     'results': formatted_results,
-                    'credits': '@abbas_tech_india'
                 })
             else:
                 return jsonify({
