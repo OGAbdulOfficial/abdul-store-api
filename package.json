@@ -1,0 +1,15 @@
+{
+  "name": "abdul-store-api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --name abdul-store-api src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240101.0",
+    "wrangler": "^3.0.0"
+  }
+}

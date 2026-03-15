@@ -1,6 +1,4 @@
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-.env
-.vercel
+node_modules
+.wrangler
+dist
+backup

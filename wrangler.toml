@@ -1,0 +1,6 @@
+name = "abdul-store-api"
+main = "src/index.ts"
+compatibility_date = "2024-03-16"
+
+# [vars]
+# MY_VARIABLE = "my-variable-value"
